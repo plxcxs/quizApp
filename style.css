@@ -1,24 +1,2 @@
-header {
-    background-color: aqua;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    background-color: blueviolet;
-}
-.card {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-footer {
-    display: grid;
-    justify-content: center;
-    width: fit-content;
-    text-align: center;
-    color: aliceblue;
-    background-color: blue;
-}
+@import "global.css";
+@import "bio.css";

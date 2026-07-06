@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+
+    background-color: aqua;
+}
+h1 {
+    margin: 10px;
+}
+header nav {
+    margin: 10px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: linear-gradient(rgb(0, 238, 255), red);
+    /* background-color: blueviolet; */
+    gap: 5px;
+}
+.card {
+    position: relative;
+    text-align: center;
+    justify-content: end;
+    padding: 20px;
+    gap: 5px;
+    height: 200px;
+}
+.card img {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+footer {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
