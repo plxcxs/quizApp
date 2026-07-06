@@ -11,6 +11,9 @@ h1 {
 header nav {
     margin: 10px;
 }
+a {
+    color: black;
+}
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -19,12 +22,16 @@ main {
     gap: 5px;
 }
 .card {
+    display: flex;
+    flex-direction: column;
     position: relative;
     text-align: center;
-    justify-content: end;
+    justify-content: flex-start;
     padding: 20px;
     gap: 5px;
     height: 200px;
+    background-color: white;
+    border: 5px solid rgb(255, 0, 217);
 }
 .card img {
     position: absolute;
